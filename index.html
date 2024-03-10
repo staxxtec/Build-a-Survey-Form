@@ -7,19 +7,58 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <form id="survey-form">
-            <div class="form-group">
-        <header class="header">
-    <h1 id="title">Coffee Drinkers Survey</h1>
-    <p id="description" class="description-text">
-        Thank you for taking the time to help us improve the platform
-    </p>
-        </header>
-    </div>
+    <h1 id="title">Coffee Drinkers Survey </h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+<fieldset>
+    <form id="survey-form">
+        <label id="name-label">Enter your name
+<input type="text" id="name" placeholder="Name" required></label>
 
+<label id="email-label">Enter your email
+<input type="email" id="email" placeholder="Email" required></label>
+
+<label id="number-label" required>Enter your age
+<input type="number" id="number" min="0" max="99" placeholder="Age"></label>
+
+<label>Select your coffee drinking status
+<select id="dropdown">
+    <option>24/7 drinking</option>
+
+<option>Every other day</option> 
+
+<option>Sometimes</option>
+    <option>I do not drink at all</option>
+    </select>
+    
+</label>Do you want to learn more about coffee?<br>
+
+
+<input type="radio" name="answer" id="no" value="yes">yes<br>
+
+<input 
+type="radio" name="answer" id="no" value="no">
+</label>no<br>
+
+<input 
+type="radio" name="answer" id="maybe" value="maybe">
+</label>maybe<br>
+
+<label> What are you interested in?
+<label><input type="checkbox" value="check">Coffee Tutorials</</label>
+
+<label>
+<input type="checkbox" value="check">Coffee Videos</label>
+
+<label>
+<input type="checkbox" value="check">Coffee Art</label>
+
+<input type="checkbox" value="check">Coffee around the world
+</label>
+       
+ <textarea>I love coffee...</textarea>
+ <button id="submit" type="submit">Submit</button>  
+ </fieldset>   
     
     </form>
-</body>
-</div>
+    </body>
 </html>
