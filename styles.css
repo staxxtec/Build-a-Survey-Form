@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);    
+    color: white;
+    text-align: center;
+    }
+    
+    form {
+        margin: 0 auto;
+    }
+    
+    
+    h1, p {
+        text-align: center;
+    }
+    
+    
+    
+    
+    label {
+       display: block;
+        margin: 0.5rem 0;
+        }
